@@ -26,6 +26,7 @@
           extend: {
             colors: {
               clifford: "#da373d",
+              "red-color": "#FF4240",
             },
           },
         },
@@ -38,5 +39,83 @@
       }
     </style>
   </head>
-  <body></body>
+  <body class="font-manrope">
+    <!-- header section style -->
+    <header class="container mx-auto">
+      <!-- main div -->
+      <div class="flex justify-around items-center mt-10">
+        <div class="dropdown lg:hidden">
+          <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h7"
+              />
+            </svg>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box"
+          >
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Pages</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- div 2 -->
+
+        <div class="">
+          <a class="btn btn-ghost text-xl"
+            >Hockey<span class="text-red-color">'</span>s
+          </a>
+        </div>
+
+        <div class="hidden gap-4 lg:flex text-[#424247]">
+          <a class="text-red-color">Home</a>
+          <a>About</a>
+          <a>Pages</a>
+          <a>Blog</a>
+          <a>Contact</a>
+        </div>
+        <div class="flex items-center">
+          <button class="btn btn-ghost btn-circle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              />
+            </svg>
+          </button>
+          <button class="btn bg-red-color text-white rounded-xl">
+            Get Ticket
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- main section style -->
+    <main></main>
+
+    <!-- footer section style -->
+    <footer></footer>
+  </body>
 </html>
