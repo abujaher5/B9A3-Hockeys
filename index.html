@@ -120,10 +120,10 @@
         <!-- slide 1 -->
         <div
           id="slide1"
-          class="carousel-item relative w-full  rounded-xl"
+          class="carousel-item relative w-full  rounded-xl bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(Images/1.png)]"
         >
         
-          <img src="Images/1.png" alt="" class="w-full">
+          <img  src="Images/1.png" alt="" class="w-full">
         
           <div
             class="absolute bottom-5 left-4 lg:bottom-10 lg:left-8 space-x-4"
@@ -291,14 +291,14 @@
 
         <!-- card container -->
 
-        <div class="text-white grid gap-7 mt-7">
+        <div class="text-white flex flex-col gap-7 mt-7">
           <!-- card 1 & 2 -->
 
           <div
-            class="grid grid-cols-1 gap-6 lg:grid-cols-2 w-full lg:h-80 bg-[rgba(19, 19, 24, 0.50)]"
+            class="flex flex-col lg:flex-row gap-6 w-full h-full ]"
           >
             <div
-              class="bg-[url(images/2.png)] bg-opacity-40 bg-no-repeat bg-cover px-10 py-14 space-y-6"
+              class="bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./Images/2.png)] bg-no-repeat bg-cover px-10 py-14 space-y-6 rounded-xl  "
             >
               <h4 class="text-xl font-bold">Junior Program</h4>
               <p class="text-gray-300 w-2/3">
@@ -313,7 +313,7 @@
             <!-- card 2 -->
 
             <div
-              class="bg-[url(images/3.png)] bg-no-repeat bg-cover px-10 py-14 space-y-6"
+              class="bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(Images/3.png)] bg-no-repeat bg-cover px-10 py-14 space-y-6 rounded-xl"
             >
               <h4 class="text-xl font-bold">Junior Program</h4>
               <p class="text-gray-300 w-2/3">
@@ -328,7 +328,7 @@
 
           <!-- card 3 -->
           <div
-            class="bg-[url(images/4.png)] bg-no-repeat bg-cover px-10 py-14 grid grid-cols-1 w-full lg:h-96 space-y-6"
+            class="bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(Images/4.png)] bg-no-repeat bg-cover px-10 py-14 grid col-span-2  lg:h-96 space-y-6 rounded-xl"
           >
             <h4 class="text-xl font-bold">Junior Program</h4>
             <p class="text-gray-300 w-2/3">
@@ -624,7 +624,7 @@
       <!-- card 3 -->
       <div class=" bg-blue-50 rounded-xl ">
         <div class="card-body">
-          <img class="w-12 h-12" src="Images/Group 1171275317.png" alt="">
+          <img class="w-12 h-12" src="Images/Group 1171275321.png" alt="">
           <p>Phone Number :</p>
           <p>(+62) 123-321-543</p>
         </div>
@@ -636,13 +636,13 @@
     <!-- form container  -->
 
 
-    <div class="grid lg:grid-cols-2 grid-cols-1  flex-grow">
+    <div class="grid lg:grid-cols-2 grid-cols-1 gap-5 w-[50%]  ">
       
 
-
 <div class="flex flex-col  ">
+
   <label for="name">Your Name</label>
-<input type="text" placeholder="Enter your name" class=" gap-4 bg-base-200 input input-bordered input-sm w-full max-w-xs" />
+<input type="text" placeholder="Enter your name" class=" gap-4 bg-base-200 input input-bordered input-sm w-full " />
 </div>
 <div class="flex flex-col  ">
   <label for="name">Your Email</label>
@@ -658,20 +658,18 @@
 </div>
 
 
-  <div class="grid grid-cols-1 flex-grow h-full w-full">
+
+  <div class=" bg-red-300 col-span-2  h-full w-full">
+
     <div class="label">
       <span class="label-text">Message</span>
      
     </div>
-    <textarea class="textarea textarea-bordered " placeholder="Write your massage"></textarea>
-    <button class="btn bg-red-color text-white">Send Message</button>
+
+    <textarea class="textarea flex-grow h-full w-full  textarea-bordered " placeholder="Write your massage"></textarea>
   </div>
-  
+  <button class="btn bg-red-color mt-8 text-white">Send Message</button>
 
-
-
-
-    
 
   </div>
 
@@ -684,6 +682,21 @@
 
 <div></div>
       </section>
+
+      <!-- social section  -->
+
+
+      <section class="container mx-auto bg-[#DD121208] mt-10 text-center flex flex-col justify-center items-center gap-6 py-6 lg:py-12 ">
+
+<h3 class="text-2xl font-extrabold text-black">Social Media</h3>
+<div class="flex justify-center text-2xl items-center gap-8 ">
+  <i class="fa-brands fa-facebook-f"></i>
+  <i class="fa-brands fa-instagram"></i>
+  <i class="fa-brands fa-github"></i>
+</div>
+      </section>
+
+
     </main>
 
     <!-- footer section style -->
